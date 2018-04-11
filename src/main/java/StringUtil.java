@@ -71,4 +71,8 @@ public class StringUtil {
         String merkleRoot = (treeLayer.size() == 1) ? treeLayer.get(0) : "";
         return merkleRoot;
     }
+
+    public static String getDificultyString(int difficulty){
+        return difficulty+"";
+    }
 }
